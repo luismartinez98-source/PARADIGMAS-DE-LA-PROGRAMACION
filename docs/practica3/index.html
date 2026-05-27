@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Practica3 | </title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Reporte: Paradigmas de la Programacion Practica 03:
+Práctica: Instalación de Haskell
+Introducción
+Haskell es un lenguaje de programación funcional que se caracteriza por su enfoque matemático y declarativo, en el cual las funciones son el elemento principal para la construcción de programas. A diferencia de otros lenguajes imperativos como C o Java, Haskell evita el uso de estados mutables y promueve el uso de funciones puras.
+El objetivo de esta práctica es instalar el entorno de desarrollo de Haskell, familiarizarse con sus herramientas principales y ejecutar un programa básico para verificar su correcto funcionamiento. Además, se busca comprender el funcionamiento de una aplicación tipo &ldquo;TODO&rdquo; desarrollada en este lenguaje.">
+    <meta name="generator" content="Hugo 0.156.0">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="//localhost:1313/practica3/">
+    
+
+    
+    
+    <meta property="og:url" content="//localhost:1313/practica3/">
+  <meta property="og:title" content="Practica3">
+  <meta property="og:description" content="Reporte: Paradigmas de la Programacion Practica 03: Práctica: Instalación de Haskell Introducción Haskell es un lenguaje de programación funcional que se caracteriza por su enfoque matemático y declarativo, en el cual las funciones son el elemento principal para la construcción de programas. A diferencia de otros lenguajes imperativos como C o Java, Haskell evita el uso de estados mutables y promueve el uso de funciones puras.
+El objetivo de esta práctica es instalar el entorno de desarrollo de Haskell, familiarizarse con sus herramientas principales y ejecutar un programa básico para verificar su correcto funcionamiento. Además, se busca comprender el funcionamiento de una aplicación tipo “TODO” desarrollada en este lenguaje.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2026-02-20T19:43:18-08:00">
+    <meta property="article:modified_time" content="2026-02-20T19:43:18-08:00">
+
+  <meta itemprop="name" content="Practica3">
+  <meta itemprop="description" content="Reporte: Paradigmas de la Programacion Practica 03: Práctica: Instalación de Haskell Introducción Haskell es un lenguaje de programación funcional que se caracteriza por su enfoque matemático y declarativo, en el cual las funciones son el elemento principal para la construcción de programas. A diferencia de otros lenguajes imperativos como C o Java, Haskell evita el uso de estados mutables y promueve el uso de funciones puras.
+El objetivo de esta práctica es instalar el entorno de desarrollo de Haskell, familiarizarse con sus herramientas principales y ejecutar un programa básico para verificar su correcto funcionamiento. Además, se busca comprender el funcionamiento de una aplicación tipo “TODO” desarrollada en este lenguaje.">
+  <meta itemprop="datePublished" content="2026-02-20T19:43:18-08:00">
+  <meta itemprop="dateModified" content="2026-02-20T19:43:18-08:00">
+  <meta itemprop="wordCount" content="520">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Practica3">
+  <meta name="twitter:description" content="Reporte: Paradigmas de la Programacion Practica 03: Práctica: Instalación de Haskell Introducción Haskell es un lenguaje de programación funcional que se caracteriza por su enfoque matemático y declarativo, en el cual las funciones son el elemento principal para la construcción de programas. A diferencia de otros lenguajes imperativos como C o Java, Haskell evita el uso de estados mutables y promueve el uso de funciones puras.
+El objetivo de esta práctica es instalar el entorno de desarrollo de Haskell, familiarizarse con sus herramientas principales y ejecutar un programa básico para verificar su correcto funcionamiento. Además, se busca comprender el funcionamiento de una aplicación tipo “TODO” desarrollada en este lenguaje.">
+
+	
+  </head><body class="ma0 avenir bg-near-white development is-page is-page page-practica3">
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+
+  <article class="page-practica3 flex-l mw7 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Practicas
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Practica3</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2026-02-20T19:43:18-08:00">February 20, 2026</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-100-l"><h1 id="reporte-paradigmas-de-la-programacion-practica-03">Reporte: Paradigmas de la Programacion Practica 03:</h1>
+<h2 id="práctica-instalación-de-haskell">Práctica: Instalación de Haskell</h2>
+<h2 id="introducción">Introducción</h2>
+<p>Haskell es un lenguaje de programación funcional que se caracteriza por su enfoque matemático y declarativo, en el cual las funciones son el elemento principal para la construcción de programas. A diferencia de otros lenguajes imperativos como C o Java, Haskell evita el uso de estados mutables y promueve el uso de funciones puras.</p>
+<p>El objetivo de esta práctica es instalar el entorno de desarrollo de Haskell, familiarizarse con sus herramientas principales y ejecutar un programa básico para verificar su correcto funcionamiento. Además, se busca comprender el funcionamiento de una aplicación tipo &ldquo;TODO&rdquo; desarrollada en este lenguaje.</p>
+<h2 id="instalación-del-entorno">Instalación del entorno</h2>
+<p>Para instalar Haskell, se accedió a la página oficial de descargas, donde se recomienda el uso de la herramienta GHCup. Esta herramienta permite instalar y administrar todos los componentes necesarios para trabajar con Haskell.</p>
+<p>Se copió y ejecutó el siguiente comando en una terminal de PowerShell:</p>
+<pre tabindex="0"><code>Set-ExecutionPolicy Bypass -Scope Process -Force;
+[System.Net.ServicePointManager]::SecurityProtocol = 
+[System.Net.ServicePointManager]::SecurityProtocol -bor 3072;
+try { 
+  &amp; ([ScriptBlock]::Create((Invoke-WebRequest https://www.haskell.org/ghcup/sh/bootstrap-haskell.ps1 -UseBasicParsing))) 
+  -Interactive -DisableCurl 
+} catch { 
+  Write-Error $_ 
+}
+</code></pre><p>Este comando descargó e instaló automáticamente las siguientes herramientas:</p>
+<ul>
+<li>GHCup: Administrador de instalación del entorno Haskell</li>
+<li>GHC (Glasgow Haskell Compiler): Compilador del lenguaje</li>
+<li>HLS (Haskell Language Server): Soporte para desarrollo en editores como VS Code</li>
+<li>Cabal: Herramienta para compilar y gestionar proyectos</li>
+<li>Stack: Administrador de dependencias</li>
+</ul>
+<h2 id="problemas-encontrados-y-solucion">Problemas encontrados y solucion</h2>
+<p>Durante la práctica se presentó un problema al intentar compilar un archivo Haskell con el comando:</p>
+<p>ghc Ejemplo1.hs</p>
+<p>El sistema mostraba el error indicando que el comando ghc no era reconocido. Esto ocurrió porque la terminal no había actualizado las variables de entorno después de la instalación.</p>
+<p>Solución:</p>
+<p>Se cerró completamente la terminal y Visual Studio Code, y posteriormente se volvieron a abrir. Esto permitió que el sistema reconociera correctamente los comandos de Haskell.</p>
+<h2 id="prueba-de-funcionamiento">Prueba de funcionamiento</h2>
+<p>Se creó un archivo llamado Ejemplo1.hs con código de prueba y se ejecutó utilizando el botón &ldquo;Run&rdquo; en Visual Studio Code, lo cual utilizó internamente el comando runhaskell.</p>
+<p>La salida obtenida fue:
+<img src="./img4.png" alt="opc1"></p>
+<p>Esto confirma que el entorno fue instalado correctamente y que Haskell está funcionando adecuadamente en el sistema.</p>
+<h2 id="aplicación-todo-en-haskell">Aplicación TODO en Haskell</h2>
+<p>Una aplicación tipo &ldquo;TODO&rdquo; es un programa que permite gestionar una lista de tareas pendientes. Generalmente, este tipo de aplicaciones permite agregar, eliminar y visualizar tareas.</p>
+<p>En Haskell, este tipo de aplicación se implementa utilizando funciones puras y manejo de archivos para almacenar las tareas. El programa funciona mediante comandos que el usuario introduce desde la terminal.</p>
+<h2 id="imagenes-de-la-descarga">Imagenes de la descarga</h2>
+<p><img src="./img1.png" alt="opc1">
+<img src="./img2.png" alt="opc1">
+<img src="./img3.png" alt="opc1"></p>
+<h2 id="conclusión">Conclusión</h2>
+<p>En esta práctica se logró instalar correctamente el entorno de desarrollo de Haskell utilizando GHCup, así como comprender las herramientas principales que lo conforman. Además, se verificó su funcionamiento mediante la ejecución de un programa básico.</p>
+<p>También se analizó el funcionamiento de una aplicación tipo TODO, lo que permitió entender mejor cómo se estructura un programa en Haskell y cómo se aplican los conceptos del paradigma funcional en un caso práctico.</p>
+<p>En general, esta práctica permitió tener un primer acercamiento al lenguaje Haskell, destacando su enfoque diferente en comparación con otros lenguajes de programación más comunes.</p>
+<ul class="pa0">
+  
+</ul>
+
+      
+    </div></article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="//localhost:1313/" >
+    &copy; 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

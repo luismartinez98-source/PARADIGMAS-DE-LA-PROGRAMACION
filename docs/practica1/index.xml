@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Practica1s on </title>
+    <link>//localhost:1313/practica1/</link>
+    <description>Recent content in Practica1s on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 20 Feb 2026 19:42:50 -0800</lastBuildDate>
+    <atom:link href="//localhost:1313/practica1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Practica1: Elementos basicos de los lenguajes de programacion</title>
+      <link>//localhost:1313/practica1/practica1/</link>
+      <pubDate>Fri, 20 Feb 2026 19:42:50 -0800</pubDate>
+      <guid>//localhost:1313/practica1/practica1/</guid>
+      <description>&lt;h1 id=&#34;reporte-paradigmas-de-la-programación-práctica-01&#34;&gt;Reporte: Paradigmas de la Programación Práctica 01:&lt;/h1&gt;&#xA;&lt;h2 id=&#34;cola-de-impresión-en-lenguaje-c&#34;&gt;Cola de impresión en lenguaje C&lt;/h2&gt;&#xA;&lt;h3 id=&#34;nombre-luis-angel-martinez-zamaniego&#34;&gt;Nombre: Luis Angel Martinez Zamaniego&lt;/h3&gt;&#xA;&lt;h2 id=&#34;1-introduccion&#34;&gt;1. Introduccion&lt;/h2&gt;&#xA;&lt;p&gt;En este proyecto se desarrolló un sistema de simulación de una cola de impresión utilizando el lenguaje C. El objetivo fue modelar el funcionamiento de una impresora que recibe múltiples trabajos de impresión y los procesa en el orden en que llegan.&lt;/p&gt;&#xA;&lt;p&gt;Para resolver este problema se utilizó una &lt;strong&gt;estructura de datos tipo cola (Queue)&lt;/strong&gt;, ya que este tipo de estructura sigue el principio &lt;strong&gt;FIFO (First In, First Out)&lt;/strong&gt;, es decir, el primer trabajo que entra es el primero en salir.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

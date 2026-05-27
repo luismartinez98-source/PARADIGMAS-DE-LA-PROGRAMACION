@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Practica00s on </title>
+    <link>//localhost:1313/practica00/</link>
+    <description>Recent content in Practica00s on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 20 Feb 2026 19:37:34 -0800</lastBuildDate>
+    <atom:link href="//localhost:1313/practica00/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Practica 0 manejo de repositorios</title>
+      <link>//localhost:1313/practica00/practica0/</link>
+      <pubDate>Fri, 20 Feb 2026 19:37:34 -0800</pubDate>
+      <guid>//localhost:1313/practica00/practica0/</guid>
+      <description>&lt;h1 id=&#34;reporte-herramientas-para-la-generación-de-páginas-web-estáticas&#34;&gt;Reporte: Herramientas para la Generación de Páginas Web Estáticas&lt;/h1&gt;&#xA;&lt;h3 id=&#34;nombre-luis-angel-martinez-zamaniego&#34;&gt;Nombre: Luis Angel Martinez Zamaniego&lt;/h3&gt;&#xA;&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;&#xA;&lt;p&gt;En este reporte se describen las herramientas fundamentales utilizadas para el desarrollo y publicación de páginas web estáticas: Markdown, Git, GitHub, Hugo y GitHub Actions. Estas herramientas permiten crear contenido, controlar versiones, colaborar y desplegar sitios web de forma eficiente.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-markdown&#34;&gt;1. Markdown&lt;/h2&gt;&#xA;&lt;h3 id=&#34;qué-es-markdown&#34;&gt;¿Qué es Markdown?&lt;/h3&gt;&#xA;&lt;p&gt;Markdown es un lenguaje de marcado ligero que permite dar formato a texto plano utilizando una sintaxis sencilla y fácil de leer. Fue creado por John Gruber en 2004 con el objetivo de facilitar la escritura de documentos estructurados sin necesidad de utilizar HTML.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

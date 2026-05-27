@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Practicas on </title>
+    <link>//localhost:1313/</link>
+    <description>Recent content in Practicas on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 20 Feb 2026 19:43:23 -0800</lastBuildDate>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Practica4</title>
+      <link>//localhost:1313/practica4/</link>
+      <pubDate>Fri, 20 Feb 2026 19:43:23 -0800</pubDate>
+      <guid>//localhost:1313/practica4/</guid>
+      <description>&lt;h1 id=&#34;reporte-paradigmas-de-la-programación-práctica-04&#34;&gt;Reporte: Paradigmas de la Programación Práctica 04:&lt;/h1&gt;&#xA;&lt;h2 id=&#34;prolog&#34;&gt;Prolog&lt;/h2&gt;&#xA;&lt;h3 id=&#34;nombre-luis-angel-martinez-zamaniego&#34;&gt;Nombre: Luis Angel Martinez Zamaniego&lt;/h3&gt;&#xA;&lt;h2 id=&#34;1-introduccion&#34;&gt;1. Introduccion&lt;/h2&gt;&#xA;&lt;p&gt;El paradigma lógico es un enfoque de programación basado en la lógica formal, donde los programas se construyen mediante hechos y reglas. En lugar de indicar cómo resolver un problema paso a paso, se describe qué condiciones deben cumplirse, y el sistema se encarga de encontrar la solución.&lt;/p&gt;&#xA;&lt;p&gt;En esta práctica se utilizó el lenguaje Prolog, el cual permite modelar problemas mediante relaciones lógicas y resolverlos automáticamente mediante mecanismos de inferencia.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Practica3</title>
+      <link>//localhost:1313/practica3/</link>
+      <pubDate>Fri, 20 Feb 2026 19:43:18 -0800</pubDate>
+      <guid>//localhost:1313/practica3/</guid>
+      <description>&lt;h1 id=&#34;reporte-paradigmas-de-la-programacion-practica-03&#34;&gt;Reporte: Paradigmas de la Programacion Practica 03:&lt;/h1&gt;&#xA;&lt;h2 id=&#34;práctica-instalación-de-haskell&#34;&gt;Práctica: Instalación de Haskell&lt;/h2&gt;&#xA;&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;&#xA;&lt;p&gt;Haskell es un lenguaje de programación funcional que se caracteriza por su enfoque matemático y declarativo, en el cual las funciones son el elemento principal para la construcción de programas. A diferencia de otros lenguajes imperativos como C o Java, Haskell evita el uso de estados mutables y promueve el uso de funciones puras.&lt;/p&gt;&#xA;&lt;p&gt;El objetivo de esta práctica es instalar el entorno de desarrollo de Haskell, familiarizarse con sus herramientas principales y ejecutar un programa básico para verificar su correcto funcionamiento. Además, se busca comprender el funcionamiento de una aplicación tipo &amp;ldquo;TODO&amp;rdquo; desarrollada en este lenguaje.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Practica2</title>
+      <link>//localhost:1313/practica2/</link>
+      <pubDate>Fri, 20 Feb 2026 19:43:13 -0800</pubDate>
+      <guid>//localhost:1313/practica2/</guid>
+      <description>&lt;h1 id=&#34;reporte-paradigmas-de-la-programación-práctica-02&#34;&gt;Reporte: Paradigmas de la Programación Práctica 02:&lt;/h1&gt;&#xA;&lt;h2 id=&#34;simulador-de-estacionamiento&#34;&gt;Simulador de Estacionamiento&lt;/h2&gt;&#xA;&lt;h3 id=&#34;nombre-luis-angel-martinez-zamaniego&#34;&gt;Nombre: Luis Angel Martinez Zamaniego&lt;/h3&gt;&#xA;&lt;h2 id=&#34;1-introduccion&#34;&gt;1. Introduccion&lt;/h2&gt;&#xA;&lt;p&gt;Este proyecto consiste en el desarrollo de un simulador de estacionamiento, cuyo objetivo es gestionar la entrada y salida de vehículos, así como la asignación de espacios disponibles.&lt;/p&gt;&#xA;&lt;p&gt;Se implementaron conceptos fundamentales de la Programación Orientada a Objetos (POO), incluyendo encapsulación, herencia, polimorfismo y abstracción. Además, se desarrolló una interfaz de usuario mediante Flask siguiendo el patrón MVC.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Practica1: Elementos basicos de los lenguajes de programacion</title>
+      <link>//localhost:1313/practica1/</link>
+      <pubDate>Fri, 20 Feb 2026 19:42:50 -0800</pubDate>
+      <guid>//localhost:1313/practica1/</guid>
+      <description>&lt;h1 id=&#34;reporte-paradigmas-de-la-programación-práctica-01&#34;&gt;Reporte: Paradigmas de la Programación Práctica 01:&lt;/h1&gt;&#xA;&lt;h2 id=&#34;cola-de-impresión-en-lenguaje-c&#34;&gt;Cola de impresión en lenguaje C&lt;/h2&gt;&#xA;&lt;h3 id=&#34;nombre-luis-angel-martinez-zamaniego&#34;&gt;Nombre: Luis Angel Martinez Zamaniego&lt;/h3&gt;&#xA;&lt;h2 id=&#34;1-introduccion&#34;&gt;1. Introduccion&lt;/h2&gt;&#xA;&lt;p&gt;En este proyecto se desarrolló un sistema de simulación de una cola de impresión utilizando el lenguaje C. El objetivo fue modelar el funcionamiento de una impresora que recibe múltiples trabajos de impresión y los procesa en el orden en que llegan.&lt;/p&gt;&#xA;&lt;p&gt;Para resolver este problema se utilizó una &lt;strong&gt;estructura de datos tipo cola (Queue)&lt;/strong&gt;, ya que este tipo de estructura sigue el principio &lt;strong&gt;FIFO (First In, First Out)&lt;/strong&gt;, es decir, el primer trabajo que entra es el primero en salir.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Practica 0 manejo de repositorios</title>
+      <link>//localhost:1313/practica00/</link>
+      <pubDate>Fri, 20 Feb 2026 19:37:34 -0800</pubDate>
+      <guid>//localhost:1313/practica00/</guid>
+      <description>&lt;h1 id=&#34;reporte-herramientas-para-la-generación-de-páginas-web-estáticas&#34;&gt;Reporte: Herramientas para la Generación de Páginas Web Estáticas&lt;/h1&gt;&#xA;&lt;h3 id=&#34;nombre-luis-angel-martinez-zamaniego&#34;&gt;Nombre: Luis Angel Martinez Zamaniego&lt;/h3&gt;&#xA;&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;&#xA;&lt;p&gt;En este reporte se describen las herramientas fundamentales utilizadas para el desarrollo y publicación de páginas web estáticas: Markdown, Git, GitHub, Hugo y GitHub Actions. Estas herramientas permiten crear contenido, controlar versiones, colaborar y desplegar sitios web de forma eficiente.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-markdown&#34;&gt;1. Markdown&lt;/h2&gt;&#xA;&lt;h3 id=&#34;qué-es-markdown&#34;&gt;¿Qué es Markdown?&lt;/h3&gt;&#xA;&lt;p&gt;Markdown es un lenguaje de marcado ligero que permite dar formato a texto plano utilizando una sintaxis sencilla y fácil de leer. Fue creado por John Gruber en 2004 con el objetivo de facilitar la escritura de documentos estructurados sin necesidad de utilizar HTML.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

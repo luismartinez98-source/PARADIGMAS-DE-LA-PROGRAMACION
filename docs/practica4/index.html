@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Practica4 | </title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Reporte: Paradigmas de la Programación Práctica 04:
+Prolog
+Nombre: Luis Angel Martinez Zamaniego
+1. Introduccion
+El paradigma lógico es un enfoque de programación basado en la lógica formal, donde los programas se construyen mediante hechos y reglas. En lugar de indicar cómo resolver un problema paso a paso, se describe qué condiciones deben cumplirse, y el sistema se encarga de encontrar la solución.
+En esta práctica se utilizó el lenguaje Prolog, el cual permite modelar problemas mediante relaciones lógicas y resolverlos automáticamente mediante mecanismos de inferencia.">
+    <meta name="generator" content="Hugo 0.156.0">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="//localhost:1313/practica4/">
+    
+
+    
+    
+    <meta property="og:url" content="//localhost:1313/practica4/">
+  <meta property="og:title" content="Practica4">
+  <meta property="og:description" content="Reporte: Paradigmas de la Programación Práctica 04: Prolog Nombre: Luis Angel Martinez Zamaniego 1. Introduccion El paradigma lógico es un enfoque de programación basado en la lógica formal, donde los programas se construyen mediante hechos y reglas. En lugar de indicar cómo resolver un problema paso a paso, se describe qué condiciones deben cumplirse, y el sistema se encarga de encontrar la solución.
+En esta práctica se utilizó el lenguaje Prolog, el cual permite modelar problemas mediante relaciones lógicas y resolverlos automáticamente mediante mecanismos de inferencia.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2026-02-20T19:43:23-08:00">
+    <meta property="article:modified_time" content="2026-02-20T19:43:23-08:00">
+
+  <meta itemprop="name" content="Practica4">
+  <meta itemprop="description" content="Reporte: Paradigmas de la Programación Práctica 04: Prolog Nombre: Luis Angel Martinez Zamaniego 1. Introduccion El paradigma lógico es un enfoque de programación basado en la lógica formal, donde los programas se construyen mediante hechos y reglas. En lugar de indicar cómo resolver un problema paso a paso, se describe qué condiciones deben cumplirse, y el sistema se encarga de encontrar la solución.
+En esta práctica se utilizó el lenguaje Prolog, el cual permite modelar problemas mediante relaciones lógicas y resolverlos automáticamente mediante mecanismos de inferencia.">
+  <meta itemprop="datePublished" content="2026-02-20T19:43:23-08:00">
+  <meta itemprop="dateModified" content="2026-02-20T19:43:23-08:00">
+  <meta itemprop="wordCount" content="467">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Practica4">
+  <meta name="twitter:description" content="Reporte: Paradigmas de la Programación Práctica 04: Prolog Nombre: Luis Angel Martinez Zamaniego 1. Introduccion El paradigma lógico es un enfoque de programación basado en la lógica formal, donde los programas se construyen mediante hechos y reglas. En lugar de indicar cómo resolver un problema paso a paso, se describe qué condiciones deben cumplirse, y el sistema se encarga de encontrar la solución.
+En esta práctica se utilizó el lenguaje Prolog, el cual permite modelar problemas mediante relaciones lógicas y resolverlos automáticamente mediante mecanismos de inferencia.">
+
+	
+  </head><body class="ma0 avenir bg-near-white development is-page is-page page-practica4">
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+
+  <article class="page-practica4 flex-l mw7 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Practicas
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Practica4</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2026-02-20T19:43:23-08:00">February 20, 2026</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-100-l"><h1 id="reporte-paradigmas-de-la-programación-práctica-04">Reporte: Paradigmas de la Programación Práctica 04:</h1>
+<h2 id="prolog">Prolog</h2>
+<h3 id="nombre-luis-angel-martinez-zamaniego">Nombre: Luis Angel Martinez Zamaniego</h3>
+<h2 id="1-introduccion">1. Introduccion</h2>
+<p>El paradigma lógico es un enfoque de programación basado en la lógica formal, donde los programas se construyen mediante hechos y reglas. En lugar de indicar cómo resolver un problema paso a paso, se describe qué condiciones deben cumplirse, y el sistema se encarga de encontrar la solución.</p>
+<p>En esta práctica se utilizó el lenguaje Prolog, el cual permite modelar problemas mediante relaciones lógicas y resolverlos automáticamente mediante mecanismos de inferencia.</p>
+<h2 id="2-desarrollo">2. Desarrollo</h2>
+<h3 id="instalacion-y-entorno">Instalacion y entorno</h3>
+<p>Se utilizó SWI-Prolog como entorno de desarrollo.
+El programa se ejecuta mediante archivos con extensión .pl que contienen reglas y hechos.</p>
+<h3 id="problema-1-torres-de-hanoi">Problema 1: Torres de Hanoi</h3>
+<p>El problema consiste en mover una serie de discos de una serie a otra, siguiendo estas reglas:</p>
+<ul>
+<li>Solo se puede mover un disco a la vez</li>
+<li>No se puede colocar un disco grande sobre uno pequeño</li>
+<li>Se utilizan tres torres: origen, auxiliar y destino</li>
+</ul>
+<h3 id="codigo-en-prolog">Codigo en Prolog</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-pl" data-lang="pl"><span style="display:flex;"><span>hanoi(<span style="color:#ae81ff">1</span>, Origen, Destino, _) :<span style="color:#f92672">-</span>
+</span></span><span style="display:flex;"><span>    write(<span style="color:#e6db74">&#39;Mover disco de &#39;</span>), write(Origen),
+</span></span><span style="display:flex;"><span>    write(<span style="color:#e6db74">&#39; a &#39;</span>), write(Destino), nl<span style="color:#f92672">.</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>hanoi(N, Origen, Destino, Auxiliar) :<span style="color:#f92672">-</span>
+</span></span><span style="display:flex;"><span>    N <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">1</span>,
+</span></span><span style="display:flex;"><span>    M is N <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>,
+</span></span><span style="display:flex;"><span>    hanoi(M, Origen, Auxiliar, Destino),
+</span></span><span style="display:flex;"><span>    hanoi(<span style="color:#ae81ff">1</span>, Origen, Destino, Auxiliar),
+</span></span><span style="display:flex;"><span>    hanoi(M, Auxiliar, Destino, Origen)<span style="color:#f92672">.</span>
+</span></span></code></pre></div><h3 id="ejecucion">Ejecucion</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-pl" data-lang="pl"><span style="display:flex;"><span>    ?<span style="color:#f92672">-</span> hanoi(<span style="color:#ae81ff">3</span>, a, c, b)<span style="color:#f92672">.</span>
+</span></span></code></pre></div><h3 id="resultado">Resultado</h3>
+<p><img src="./cap1.png" alt="opc1"></p>
+<h3 id="problema-2-el-mono-y-la-banana">Problema 2: El mono y la banana</h3>
+<p>Un mono desea alcanzar una banana que cuelga</p>
+<p>el mono puede:</p>
+<ul>
+<li>Caminar</li>
+<li>Empujar una caja</li>
+<li>Subirse a la caja</li>
+<li>Tomar la banana</li>
+</ul>
+<h3 id="modelo-del-problema">Modelo del problema</h3>
+<p>Se representa el estado mediante:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-pl" data-lang="pl"><span style="display:flex;"><span>estado(PosMono, PosCaja, SobreCaja, TieneBanana)
+</span></span></code></pre></div><h3 id="codigo">Codigo</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-pl" data-lang="pl"><span style="display:flex;"><span>lugar(puerta)<span style="color:#f92672">.</span>
+</span></span><span style="display:flex;"><span>lugar(ventana)<span style="color:#f92672">.</span>
+</span></span><span style="display:flex;"><span>lugar(centro)<span style="color:#f92672">.</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>% La banana en el centro
+</span></span><span style="display:flex;"><span>banana(centro)<span style="color:#f92672">.</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>% Estado final
+</span></span><span style="display:flex;"><span>meta(estado(_, _, _, si))<span style="color:#f92672">.</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>% Caminar 
+</span></span><span style="display:flex;"><span>accion(estado(M, C, <span style="color:#66d9ef">no</span>, B),
+</span></span><span style="display:flex;"><span>       caminar(M, X),
+</span></span><span style="display:flex;"><span>       estado(X, C, <span style="color:#66d9ef">no</span>, B)) :<span style="color:#f92672">-</span>
+</span></span><span style="display:flex;"><span>    lugar(X),
+</span></span><span style="display:flex;"><span>    X <span style="color:#f92672">\=</span> M<span style="color:#f92672">.</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>% Empujar caja (solo si está con la caja)
+</span></span><span style="display:flex;"><span>accion(estado(M, M, <span style="color:#66d9ef">no</span>, B),
+</span></span><span style="display:flex;"><span>       empujar(M, X),
+</span></span><span style="display:flex;"><span>       estado(X, X, <span style="color:#66d9ef">no</span>, B)) :<span style="color:#f92672">-</span>
+</span></span><span style="display:flex;"><span>    lugar(X),
+</span></span><span style="display:flex;"><span>    X <span style="color:#f92672">\=</span> M<span style="color:#f92672">.</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>% Subirse a la caja
+</span></span><span style="display:flex;"><span>accion(estado(M, M, <span style="color:#66d9ef">no</span>, B),
+</span></span><span style="display:flex;"><span>       subir,
+</span></span><span style="display:flex;"><span>       estado(M, M, si, B))<span style="color:#f92672">.</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>% Bajar
+</span></span><span style="display:flex;"><span>accion(estado(M, M, si, B),
+</span></span><span style="display:flex;"><span>       bajar,
+</span></span><span style="display:flex;"><span>       estado(M, M, <span style="color:#66d9ef">no</span>, B))<span style="color:#f92672">.</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>accion(estado(centro, centro, si, <span style="color:#66d9ef">no</span>),
+</span></span><span style="display:flex;"><span>       agarrar,
+</span></span><span style="display:flex;"><span>       estado(centro, centro, si, si))<span style="color:#f92672">.</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>resolver(EstadoInicial, Pasos) :<span style="color:#f92672">-</span>
+</span></span><span style="display:flex;"><span>    buscar(EstadoInicial, [EstadoInicial], Pasos)<span style="color:#f92672">.</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>buscar(Estado, _, <span style="color:#f92672">[]</span>) :<span style="color:#f92672">-</span>
+</span></span><span style="display:flex;"><span>    meta(Estado)<span style="color:#f92672">.</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>buscar(Estado, Visitados, [Accion <span style="color:#f92672">|</span> Resto]) :<span style="color:#f92672">-</span>
+</span></span><span style="display:flex;"><span>    accion(Estado, Accion, NuevoEstado),
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">\+</span> member(NuevoEstado, Visitados),
+</span></span><span style="display:flex;"><span>    buscar(NuevoEstado, [NuevoEstado <span style="color:#f92672">|</span> Visitados], Resto)<span style="color:#f92672">.</span>
+</span></span></code></pre></div><h3 id="ejecucion-1">Ejecucion</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-pl" data-lang="pl"><span style="display:flex;"><span>?<span style="color:#f92672">-</span> resolver(estado(puerta, ventana, <span style="color:#66d9ef">no</span>, <span style="color:#66d9ef">no</span>), Pasos)<span style="color:#f92672">.</span>
+</span></span></code></pre></div><h3 id="resultado-1">Resultado</h3>
+<p><img src="./cap2.png" alt="opc2"></p>
+<h3 id="analisis">Analisis</h3>
+<p>El sistema utiliza un enfoque basado en busqueda en profundidad (DFS)
+lo que permite encontrar una secuencia de acciones válida que resuelve el problema.</p>
+<p>Sin embargo, la solución encontrada no siempre es la más óptima, ya que el sistema no evalúa la eficiencia del camino, sino únicamente su validez lógica.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Prolog permite modelar problemas complejos con logica declarativa, no es necesario definir el algoritmo paso a paso. El motor encuentra soluciones automaticamente y se pueden representar problemas de inteligencia artificial mediante estados y reglas.</p>
+<ul class="pa0">
+  
+</ul>
+
+      
+    </div></article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="//localhost:1313/" >
+    &copy; 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

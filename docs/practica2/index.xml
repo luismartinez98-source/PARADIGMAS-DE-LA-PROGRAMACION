@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Practica2s on </title>
+    <link>//localhost:1313/practica2/</link>
+    <description>Recent content in Practica2s on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 20 Feb 2026 19:43:13 -0800</lastBuildDate>
+    <atom:link href="//localhost:1313/practica2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Practica2</title>
+      <link>//localhost:1313/practica2/practica2/</link>
+      <pubDate>Fri, 20 Feb 2026 19:43:13 -0800</pubDate>
+      <guid>//localhost:1313/practica2/practica2/</guid>
+      <description>&lt;h1 id=&#34;reporte-paradigmas-de-la-programación-práctica-02&#34;&gt;Reporte: Paradigmas de la Programación Práctica 02:&lt;/h1&gt;&#xA;&lt;h2 id=&#34;simulador-de-estacionamiento&#34;&gt;Simulador de Estacionamiento&lt;/h2&gt;&#xA;&lt;h3 id=&#34;nombre-luis-angel-martinez-zamaniego&#34;&gt;Nombre: Luis Angel Martinez Zamaniego&lt;/h3&gt;&#xA;&lt;h2 id=&#34;1-introduccion&#34;&gt;1. Introduccion&lt;/h2&gt;&#xA;&lt;p&gt;Este proyecto consiste en el desarrollo de un simulador de estacionamiento, cuyo objetivo es gestionar la entrada y salida de vehículos, así como la asignación de espacios disponibles.&lt;/p&gt;&#xA;&lt;p&gt;Se implementaron conceptos fundamentales de la Programación Orientada a Objetos (POO), incluyendo encapsulación, herencia, polimorfismo y abstracción. Además, se desarrolló una interfaz de usuario mediante Flask siguiendo el patrón MVC.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Practica2 | </title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Reporte: Paradigmas de la Programación Práctica 02:
+Simulador de Estacionamiento
+Nombre: Luis Angel Martinez Zamaniego
+1. Introduccion
+Este proyecto consiste en el desarrollo de un simulador de estacionamiento, cuyo objetivo es gestionar la entrada y salida de vehículos, así como la asignación de espacios disponibles.
+Se implementaron conceptos fundamentales de la Programación Orientada a Objetos (POO), incluyendo encapsulación, herencia, polimorfismo y abstracción. Además, se desarrolló una interfaz de usuario mediante Flask siguiendo el patrón MVC.">
+    <meta name="generator" content="Hugo 0.156.0">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="//localhost:1313/practica2/">
+    
+
+    
+    
+    <meta property="og:url" content="//localhost:1313/practica2/">
+  <meta property="og:title" content="Practica2">
+  <meta property="og:description" content="Reporte: Paradigmas de la Programación Práctica 02: Simulador de Estacionamiento Nombre: Luis Angel Martinez Zamaniego 1. Introduccion Este proyecto consiste en el desarrollo de un simulador de estacionamiento, cuyo objetivo es gestionar la entrada y salida de vehículos, así como la asignación de espacios disponibles.
+Se implementaron conceptos fundamentales de la Programación Orientada a Objetos (POO), incluyendo encapsulación, herencia, polimorfismo y abstracción. Además, se desarrolló una interfaz de usuario mediante Flask siguiendo el patrón MVC.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2026-02-20T19:43:13-08:00">
+    <meta property="article:modified_time" content="2026-02-20T19:43:13-08:00">
+
+  <meta itemprop="name" content="Practica2">
+  <meta itemprop="description" content="Reporte: Paradigmas de la Programación Práctica 02: Simulador de Estacionamiento Nombre: Luis Angel Martinez Zamaniego 1. Introduccion Este proyecto consiste en el desarrollo de un simulador de estacionamiento, cuyo objetivo es gestionar la entrada y salida de vehículos, así como la asignación de espacios disponibles.
+Se implementaron conceptos fundamentales de la Programación Orientada a Objetos (POO), incluyendo encapsulación, herencia, polimorfismo y abstracción. Además, se desarrolló una interfaz de usuario mediante Flask siguiendo el patrón MVC.">
+  <meta itemprop="datePublished" content="2026-02-20T19:43:13-08:00">
+  <meta itemprop="dateModified" content="2026-02-20T19:43:13-08:00">
+  <meta itemprop="wordCount" content="412">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Practica2">
+  <meta name="twitter:description" content="Reporte: Paradigmas de la Programación Práctica 02: Simulador de Estacionamiento Nombre: Luis Angel Martinez Zamaniego 1. Introduccion Este proyecto consiste en el desarrollo de un simulador de estacionamiento, cuyo objetivo es gestionar la entrada y salida de vehículos, así como la asignación de espacios disponibles.
+Se implementaron conceptos fundamentales de la Programación Orientada a Objetos (POO), incluyendo encapsulación, herencia, polimorfismo y abstracción. Además, se desarrolló una interfaz de usuario mediante Flask siguiendo el patrón MVC.">
+
+	
+  </head><body class="ma0 avenir bg-near-white development is-page is-page page-practica2">
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+
+  <article class="page-practica2 flex-l mw7 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Practicas
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Practica2</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2026-02-20T19:43:13-08:00">February 20, 2026</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-100-l"><h1 id="reporte-paradigmas-de-la-programación-práctica-02">Reporte: Paradigmas de la Programación Práctica 02:</h1>
+<h2 id="simulador-de-estacionamiento">Simulador de Estacionamiento</h2>
+<h3 id="nombre-luis-angel-martinez-zamaniego">Nombre: Luis Angel Martinez Zamaniego</h3>
+<h2 id="1-introduccion">1. Introduccion</h2>
+<p>Este proyecto consiste en el desarrollo de un simulador de estacionamiento, cuyo objetivo es gestionar la entrada y salida de vehículos, así como la asignación de espacios disponibles.</p>
+<p>Se implementaron conceptos fundamentales de la Programación Orientada a Objetos (POO), incluyendo encapsulación, herencia, polimorfismo y abstracción. Además, se desarrolló una interfaz de usuario mediante Flask siguiendo el patrón MVC.</p>
+<h2 id="2-modelo-del-dominio">2. Modelo del dominio</h2>
+<h4 id="clases-principales-y-responsabilidades">Clases principales y responsabilidades</h4>
+<ul>
+<li>
+<h4 id="vehiculo">Vehiculo</h4>
+<ul>
+<li>Representa un vehiculo</li>
+<li>Define comportamiento comun</li>
+</ul>
+</li>
+<li>
+<h4 id="car-moto-electric">Car, Moto, Electric</h4>
+<ul>
+<li>Subtipos de vehículo</li>
+<li>Implementan su propia tarifa (polimorfismo)</li>
+</ul>
+</li>
+<li>
+<h4 id="parkingspot">ParkingSpot</h4>
+<ul>
+<li>Representa un espacio de estacionamiento</li>
+<li>Controla si está ocupado o libre</li>
+</ul>
+</li>
+<li>
+<h4 id="ticket">Ticket</h4>
+<ul>
+<li>Registra entrada/salida de un vehículo</li>
+<li>Relaciona vehículo con espacio</li>
+</ul>
+</li>
+<li>
+<h4 id="parkinglot">ParkingLot</h4>
+<ul>
+<li>Administra toda la lógica del sistema</li>
+<li>Asigna lugares y gestiona tickets</li>
+</ul>
+</li>
+</ul>
+<h2 id="3-conceptos-poo">3. Conceptos POO</h2>
+<h4 id="encapsulacion">Encapsulacion</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">ocupar</span>(self):
+</span></span><span style="display:flex;"><span>    self<span style="color:#f92672">.</span>_ocupado <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span> 
+</span></span></code></pre></div><p>Se protege el estado del objeto evitando acceso directo.</p>
+<h4 id="abstracción">Abstracción</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Vehiculo</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">calcular_tarifa</span>(self, horas):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">raise</span> <span style="color:#a6e22e">NotImplementedError</span>
+</span></span></code></pre></div><p>Se define una interfaz común para el cálculo de tarifas.</p>
+<h4 id="composición">Composición</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-py" data-lang="py"><span style="display:flex;"><span>self<span style="color:#f92672">.</span>_tickets_activos<span style="color:#f92672">.</span>append(ticket)
+</span></span></code></pre></div><p>ParkingLot administra objetos Ticket y ParkingSpot.</p>
+<h4 id="herencia--subtipos">Herencia / Subtipos</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Electric</span>(Car):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">calcular_tarifa</span>(self, horas):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> horas <span style="color:#f92672">*</span> <span style="color:#ae81ff">15</span>
+</span></span></code></pre></div><p>Electric hereda de Car y modifica su comportamiento.</p>
+<h4 id="polimorfismo">Polimorfismo</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-py" data-lang="py"><span style="display:flex;"><span>costo <span style="color:#f92672">=</span> ticket<span style="color:#f92672">.</span>get_vehicle()<span style="color:#f92672">.</span>calcular_tarifa(horas)
+</span></span></code></pre></div><p>Cada vehículo calcula su tarifa de forma diferente sin usar condicionales.</p>
+<h2 id="salidas">Salidas</h2>
+<h3 id="consola">Consola</h3>
+<p><strong><img src="./Cap2.png" alt="opc1"></strong>
+<img src="./cap3.png" alt="opc1">
+<img src="./cap6.png" alt="opc1">
+<img src="./cap4.png" alt="opc1">
+<img src="./cap5.png" alt="opc1"></p>
+<h3 id="flask">Flask</h3>
+<p><img src="./Cap7.png" alt="opc1">
+<img src="./Cap9.png" alt="opc1">
+<img src="./cap8.png" alt="opc1"></p>
+<h2 id="4-mvc-con-flask">4. MVC con Flask</h2>
+<h4 id="model">Model</h4>
+<ul>
+<li>vehicle.py</li>
+<li>parking_lot.py</li>
+<li>ticket.py</li>
+<li>spot.py</li>
+</ul>
+<p>Contienen la lógica del sistema.</p>
+<h4 id="view">View</h4>
+<p>index.html</p>
+<p>Interfaz del usuario (formularios y botones)</p>
+<h4 id="controller">Controller</h4>
+<p>app.py</p>
+<p>Maneja rutas y conecta modelo con la vista</p>
+<h4 id="rutas-implementadas">Rutas implementadas</h4>
+<p>/ → página principal</p>
+<p>/entrada → registrar vehículo</p>
+<p>/salida → registrar salida</p>
+<p>/ocupacion → ver estado</p>
+<h2 id="5-pruebas-manuales">5. Pruebas manuales</h2>
+<h3 id="flujo-1-entrada-y-salida-de-carro">Flujo 1: Entrada y salida de carro</h3>
+<ul>
+<li>Registrar carro</li>
+<li>Se asigna un spot</li>
+<li>Se genera ticket</li>
+<li>Registrar salida con horas</li>
+<li>Se libera el espacio</li>
+</ul>
+<h3 id="flujo-2-moto-y-ocupación">Flujo 2: Moto y ocupación</h3>
+<ul>
+<li>Registrar motocicleta</li>
+<li>Ver ocupación</li>
+<li>Confirmar incremento de ocupados</li>
+<li>Salida → verificar decremento</li>
+</ul>
+<h2 id="conclusiones">Conclusiones</h2>
+<p>El desarrollo del sistema permitió aplicar de manera práctica los conceptos de POO, especialmente el uso de polimorfismo para evitar estructuras condicionales.</p>
+<p>El uso de Flask facilitó la transición de una interfaz de consola a una interfaz web, implementando el patrón MVC de manera básica.</p>
+<p>El sistema es escalable, permitiendo agregar nuevos tipos de vehículos sin modificar la lógica existente.</p>
+<h2 id="referencias">Referencias</h2>
+<p>Python Software Foundation. (2023). Python Documentation. <a href="https://docs.python.org">https://docs.python.org</a>
+Pallets Projects. (2023). Flask Documentation. <a href="https://flask.palletsprojects.com">https://flask.palletsprojects.com</a>
+Gamma, E., et al. (1994). Design Patterns. Addison-Wesley.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#75715e">## Repositorio
+</span></span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>El código fuente completo del proyecto se encuentra disponible en el siguiente repositorio:
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[<span style="color:#f92672">[Enlace al repositorio</span>](<span style="color:#a6e22e">https://drive.google.com/drive/folders/1MzQ28jZMi0WpeKIrYqicqpgcy_Qc7BBU?usp=sharing</span>)]
+</span></span></code></pre></div><ul class="pa0">
+  
+</ul>
+
+      
+    </div></article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="//localhost:1313/" >
+    &copy; 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>
