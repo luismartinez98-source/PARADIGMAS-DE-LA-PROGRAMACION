@@ -1,0 +1,7 @@
+baseURL = "https://luismartinez98-source.github.io/PARADIGMAS-DE-LA-PROGRAMACION/"
+languageCode = "en-us"
+title = "Paradigmas de la Programación"
+theme = "ananke"
+
+[params]
+  custom_css = ["css/custom.css"]
