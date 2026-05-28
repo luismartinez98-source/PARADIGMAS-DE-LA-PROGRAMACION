@@ -74,3 +74,35 @@
       color: #6b7280;
       font-size: 0.8rem;
     }
+
+    .container {
+  max-width: 900px;
+}
+
+.content-box {
+  background-color: #111111;
+  border: 1px solid #1f1f1f;
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #6b7280;
+  margin-bottom: 30px;
+}
+
+hr {
+  border-color: #1f1f1f;
+  margin: 30px 0;
+}
+
+pre {
+  overflow-x: auto;
+}
