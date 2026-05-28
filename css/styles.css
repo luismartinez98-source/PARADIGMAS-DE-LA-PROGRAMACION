@@ -77,6 +77,8 @@
 
     .container {
   max-width: 900px;
+  margin: auto;
+  text-align: center;
 }
 
 .content-box {
