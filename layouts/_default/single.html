@@ -1,0 +1,37 @@
+{{ define "main" }}
+
+  <!-- Mini hero de práctica -->
+  <section class="hero">
+    <div class="container">
+      <h1>{{ .Title }}</h1>
+      <p>
+        {{ if .Date }}{{ .Date.Format "January 2, 2006" }}{{ end }}
+      </p>
+    </div>
+  </section>
+
+  <!-- Contenido del reporte -->
+  <div class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+
+        <!-- Botón volver -->
+        <div class="mb-4">
+          <a href="{{ "/" | absURL }}" class="btn btn-custom">← Volver al menú</a>
+        </div>
+
+        <!-- Cuerpo del artículo -->
+        <article class="practica-content">
+          {{ .Content }}
+        </article>
+
+        <!-- Botón volver (al final) -->
+        <div class="mt-5 pt-3 border-top">
+          <a href="{{ "/" | absURL }}" class="btn btn-custom">← Volver al menú</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+{{ end }}
