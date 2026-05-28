@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Parking Lot</title>
+</head>
+<body>
+
+<h1>Parking Lot</h1>
+
+<h2>Entrada</h2>
+<form action="/entrada" method="post">
+    Placas: <input name="placas"><br><br>
+
+    Tipo:
+    <select name="tipo">
+        <option value="carro">Carro</option>
+        <option value="moto">Moto</option>
+    </select><br><br>
+
+    Subtipo:
+    <select name="subtipo">
+        <option value="combustible">Combustible</option>
+        <option value="electrico">Eléctrico</option>
+    </select><br><br>
+
+    <button type="submit">Registrar Entrada</button>
+</form>
+
+<hr>
+
+<h2>Salida</h2>
+<form action="/salida" method="post">
+    Ticket ID: <input name="ticket"><br><br>
+    Horas: <input name="horas"><br><br>
+    <button type="submit">Registrar Salida</button>
+</form>
+
+<hr>
+
+<a href="/ocupacion">Ver ocupación</a>
+
+</body>
+</html>
