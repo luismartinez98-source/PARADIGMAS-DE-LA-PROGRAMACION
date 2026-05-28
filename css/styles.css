@@ -176,3 +176,19 @@ pre {
   margin: 1rem 0;
   box-shadow: 0 4px 16px rgba(0,0,0,0.12);
 }
+
+/* Centrar contenido de las prácticas */
+.practica-content {
+  text-align: left; /* el cuerpo va a la izquierda, más formal */
+}
+
+.practica-content h1,
+.practica-content h2 {
+  text-align: center;  /* títulos centrados */
+  margin-top: 2.5rem;
+}
+
+.practica-content img {
+  display: block;
+  margin: 1.5rem auto; /* fotos centradas */
+}

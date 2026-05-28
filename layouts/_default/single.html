@@ -1,14 +1,14 @@
 {{ define "main" }}
 
-  <!-- Mini hero de práctica -->
-  <section class="hero">
-    <div class="container">
-      <h1>{{ .Title }}</h1>
-      <p>
-        {{ if .Date }}{{ .Date.Format "January 2, 2006" }}{{ end }}
-      </p>
-    </div>
-  </section>
+<!-- Mini hero de práctica -->
+<section class="hero">
+  <div class="container" style="text-align: center;">
+    <h1>{{ .Title }}</h1>
+    {{ if .Date }}
+    <p>{{ .Date.Format "2 de January de 2006" }}</p>
+    {{ end }}
+  </div>
+</section>
 
   <!-- Contenido del reporte -->
   <div class="container py-5">
